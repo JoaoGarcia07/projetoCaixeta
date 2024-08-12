@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="assets/css/cadastro.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="image-container">
+        <img src="assets/img/passaro.avif" alt="Passaro" />
+      </div>
+      <div class="form-container">
+        <h2>Cadastrar</h2>
+        <form action="menu.html">
+          <!-- Defina a ação do formulário para o que deseja fazer com o login -->
+          <div class="input-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="login">Login</label>
+            <input type="text" id="login" name="login" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="input-group">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" required />
+          </div>
+        </form>
+        <form action="login.html">
+          <button id="button-entrar" type="submit">Salvar</button>
+        </form>
+        <form action="login.html">
+          <button class="button-cadastrar" type="submit">Voltar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

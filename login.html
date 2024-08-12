@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="image-container">
+        <img src="assets/img/passaro.avif" alt="passaro">
+      </div>
+      <h2>Login</h2>
+      <form action="menu.html"> <!-- Defina a ação do formulário para o que deseja fazer com o login -->
+        <div class="input-group">
+          <label for="username">Usuário</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button id="button-entrar" type="submit">Entrar</button>
+      </form>
+      <form action="cadastro.html">
+        <button class="button-cadastrar" type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </body>
+</html>
